@@ -6,7 +6,11 @@ export default {
     "node_modules/preline/dist/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        'screen-minus-navbar': 'calc(100vh - 56px)',
+      },
+    },
   },
   plugins: [require("daisyui"), require("preline/plugin")],
 };
