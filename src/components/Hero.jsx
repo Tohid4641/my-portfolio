@@ -1,24 +1,32 @@
+import Typewriter from "./Typewriter";
+
 const Hero = () => {
   return (
     <section
       id="hero"
       aria-label="Introduction"
-      className="hero bg-base-200  screen-minus-navbar"
+      className="hero bg-base-200 h-screen md:h-screen-minus-navbar"
     >
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
-          src="/assets/image5.png"
+          src="/assets/profile.png"
           alt="profile"
-          className="max-w-sm rounded-lg shadow-2xl"
+          className="max-w-sm rounded-lg "
         />
         <div>
-          <h1 className="text-5xl font-bold">Hi, I am Full Stack Developer</h1>
+          <h1 className="text-5xl font-bold">
+            Hi, I'm <span className="text-blue-800">Shaikh Tauhid</span>
+          </h1>
+          <h3 className="text-2xl pt-6 ">
+            <span className="text-blue-800">a</span> <Typewriter />
+          </h3>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            Let's build something amazing together. Explore my work below!
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <div>
+            <button className="mr-5 btn btn-outline btn-primary">Hire Me</button>
+            <button className="btn btn-outline btn-secondary">Download Resume</button>
+          </div>
         </div>
       </div>
     </section>

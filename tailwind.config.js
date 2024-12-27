@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       height: {
-        'screen-minus-navbar': 'calc(100vh - 56px)',
+        'screen-minus-navbar': 'calc(100vh - 92px)',
       },
     },
   },
