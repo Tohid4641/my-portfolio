@@ -5,13 +5,13 @@ const Hero = () => {
     <section
       id="hero"
       aria-label="Introduction"
-      className="hero bg-base-200 h-screen md:h-screen-minus-navbar"
+      className="hero box-border bg-base-200 h-screen-minus-navbar"
     >
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src="/assets/profile.png"
           alt="profile"
-          className="max-w-sm rounded-lg "
+          className="max-w-sm rounded-lg md:block hidden"
         />
         <div>
           <h1 className="text-5xl font-bold">

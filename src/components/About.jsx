@@ -5,7 +5,7 @@ const About = () => {
     <section
       id="about"
       aria-label="About Me"
-      className="flex justify-center items-center flex-col lg:flex-row-reverse"
+      className="flex justify-center items-center flex-col lg:flex-row-reverse bg-base-200"
     >
       <div className="ml-10">
         <h2 className="text-5xl mb-30">About Me</h2>
